@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+    android:background="@color/colorPrimary"/>
+
+
+    <CheckBox
+        android:text="Education"
+        android:layout_width="match_parent"
+        android:tag="education"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox1"
+        android:layout_margin="16dp" />
+
+    <CheckBox
+        android:text="Entertainment"
+        android:layout_width="match_parent"
+        android:tag="arts"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox2"
+        android:layout_margin="16dp" />
+
+    <CheckBox
+        android:text="Health"
+        android:layout_width="match_parent"
+        android:tag="internalmed"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:layout_margin="16dp" />
+
+    <CheckBox
+        android:text="Restuarants"
+        android:layout_width="match_parent"
+        android:tag="restuarants"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox3"
+        android:layout_margin="16dp" />
+
+    <CheckBox
+        android:text="Transportation"
+        android:layout_width="match_parent"
+        android:tag="publictransport"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox4"
+        android:layout_margin="16dp" />
+
+    <Button
+        android:text="Apply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/applybutton"
+        android:layout_margin="16dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/background_light" />
+
+</LinearLayout>
