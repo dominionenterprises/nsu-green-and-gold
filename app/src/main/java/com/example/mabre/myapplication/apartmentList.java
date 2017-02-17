@@ -62,6 +62,7 @@ ListView listView;
     public void setAdapter(ResultsList list){
         activity.resultList =list.getBusinesses();
         adapter = new ListAdapter(getApplicationContext(), R.layout.listviewrow,resultList);
+        listView.setAdapter(adapter);
     }
 
     public void notifyAdapter(){
